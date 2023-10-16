@@ -37,6 +37,7 @@
 // console.log(img.getAttribute("id"));
 // console.log(img);
 
+
 // //manipulating style
 // let links = document.querySelectorAll('.pubInfo a');
 // // for(let i = 0;i<links.length;i++){
@@ -45,3 +46,19 @@
 // for (link of links){
 //     link.style.color = "green";
 // }
+
+
+// //using classlist
+// let heading = document.querySelector("h1");
+// console.log(heading.classList);
+// //console.log(heading.classList.add("green"));
+// console.log(heading.classList.contains("green"));
+// console.log(heading.classList.toggle("green"));// adds class if not exists, if class exists toggle removes it
+
+
+//Navigation
+let img = document.querySelector("img");
+console.log(img.previousElementSibling.style.color = "yellow");
+console.log(img.children);
+console.log(img.parentElement);
+console.log(img.nextElementSibling);
