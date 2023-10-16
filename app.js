@@ -8,8 +8,13 @@
 // console.log(document.getElementsByTagName("p"));
 // document.getElementsByTagName("p")[1].innerText = "CG Fucked!!!!";
 //Query Selectors
-console.log(document.querySelector('p'));
-console.dir(document.querySelector('p'));
-console.log(document.querySelector('.pubInfo'));//mainImg
-console.log(document.querySelector('#mainImg'));
-console.log(document.querySelectorAll('p'));
+// console.log(document.querySelector('p'));
+// console.dir(document.querySelector('p'));
+// console.log(document.querySelector('.pubInfo'));//mainImg
+// console.log(document.querySelector('#mainImg'));
+// console.log(document.querySelectorAll('p'));
+//innerText, textContent and innerHTML
+let para = document.querySelector('p');
+console.log(para.innerText);
+console.log(para.textContent);
+console.log(para.innerHTML);
