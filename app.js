@@ -18,3 +18,5 @@ let para = document.querySelector('p');
 console.log(para.innerText);
 console.log(para.textContent);
 console.log(para.innerHTML);
+let heading = document.querySelector('h1');
+heading.innerHTML = "<u>Spider Man</u>";
