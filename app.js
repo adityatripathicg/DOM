@@ -9,3 +9,7 @@
 // document.getElementsByTagName("p")[1].innerText = "CG Fucked!!!!";
 //Query Selectors
 console.log(document.querySelector('p'));
+console.dir(document.querySelector('p'));
+console.log(document.querySelector('.pubInfo'));//mainImg
+console.log(document.querySelector('#mainImg'));
+console.log(document.querySelectorAll('p'));
