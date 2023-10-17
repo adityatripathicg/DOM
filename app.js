@@ -56,9 +56,12 @@
 // console.log(heading.classList.toggle("green"));// adds class if not exists, if class exists toggle removes it
 
 
-//Navigation
-let img = document.querySelector("img");
-console.log(img.previousElementSibling.style.color = "yellow");
-console.log(img.children);
-console.log(img.parentElement);
-console.log(img.nextElementSibling);
+// //Navigation
+// let img = document.querySelector("img");
+// console.log(img.previousElementSibling.style.color = "yellow");
+// console.log(img.children);
+// console.log(img.parentElement);
+// console.log(img.nextElementSibling);
+
+
+//adding elements

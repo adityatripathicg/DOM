@@ -1,0 +1,23 @@
+let p2 = document.createElement("p");
+p2.innerText = "Hey I'm Red!";
+p2.style.color = "red";
+let h1 = document.querySelector("h1");
+let body = document.querySelector("body");
+body.append(p2);
+let h3 = document.createElement("h3");
+h3.innerText="I'm a blue H3";
+h3.style.color = "blue";
+let p = document.querySelector("p");
+p.prepend(h3);
+let div = document.createElement("div");
+div.style.border = "2px solid black";
+div.style.backgroundColor = "pink";
+div.style.height = "100px";
+div.style.width = "200px";
+body.append(div);
+let ih1 = document.createElement("h1");
+ih1.innerHTML = "I'm in a div";
+let ip = document.createElement("p");
+ip.innerText = "ME TOO!"
+div.appendChild(ih1);
+div.appendChild(ip);
